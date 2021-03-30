@@ -1,3 +1,6 @@
+#retrieves last 100 games of a given player name.
+#with this I can retrieve any game data I need.
+
 import berserk, pickle
 from the_token import access_token
 
@@ -15,5 +18,5 @@ with open('Last-100-games-AlephNaught202.pkl', 'rb') as f:
 print(GamesPlayer[0])
 print(GamesPlayer[99])
 
-	#retrieves last 100 games of a given player name.
-	#with this I can retrieve any game data I need.
+#retrieves last 100 games of a given player name.
+#with this I can retrieve any game data I need.
