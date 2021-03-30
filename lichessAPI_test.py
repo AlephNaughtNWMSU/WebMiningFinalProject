@@ -1,8 +1,7 @@
 import berserk
+from the_token import access_token
 
-token = "mGGIAvQOuKCNJGFs"
-
-session = berserk.TokenSession(token)
+session = berserk.TokenSession(access_token)
 client = berserk.Client(session=session)
 
 #print(client.users.get_public_data('AlephNaught202'))
